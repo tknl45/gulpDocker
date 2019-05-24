@@ -1,4 +1,6 @@
-FROM node:current-alpine
+FROM node
+
+RUN node -v
 
 RUN npm install --global gulp-cli
 
